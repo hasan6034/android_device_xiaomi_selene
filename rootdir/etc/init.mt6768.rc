@@ -139,8 +139,6 @@ on post-fs
     symlink /dev/block/mmcblk0boot1 /dev/block/platform/bootdevice/by-name/preloader_b
 
 on late-fs
-    wait_for_prop hwservicemanager.ready "true"
-    exec_start wait_for_keymaster
     setprop init.userspace_reboot.userdata_remount.timeoutmillis 10000
     mount_all /vendor/etc/fstab.mt6768 --late
 
