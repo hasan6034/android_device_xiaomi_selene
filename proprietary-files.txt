@@ -632,7 +632,6 @@ vendor/etc/nfc/nfc_whitelist.properties
 vendor/etc/sn100u_nfcon.pnscr
 
 # Neural-networks
-vendor/lib/libneuropilot_hal_utils.so
 vendor/lib64/libneuropilot_hal_utils.so
 
 # Power-Hardware
