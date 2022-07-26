@@ -342,7 +342,6 @@ vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 
 # Graphics (Allocator) - from selene-user 13 TP1A.220624.014 V14.0.2.0.TKUCNXM release-keys
