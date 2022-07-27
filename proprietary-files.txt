@@ -227,7 +227,6 @@ vendor/lib/hw/consumerir.mt6768.so
 vendor/lib64/hw/consumerir.mt6768.so
 
 # DRM
-vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 
 # DRM-Hardware
@@ -417,8 +416,6 @@ vendor/lib/hw/kmsetkey.beanpod.so
 vendor/lib/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib/liburee_meta_drmkeyinstall.so
-vendor/lib/libwvkeybox.so
-vendor/lib/libwvkeyboxext.so
 vendor/lib/vendor.mediatek.hardware.keyinstall@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
@@ -931,7 +928,6 @@ vendor/lib/libteeclientjni.so
 vendor/lib/libteeclientjni@1.1.so
 vendor/lib/libTEECommon.so
 vendor/lib/libthha.so
-vendor/lib/libtlcWidevineModularDrm.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_utils.so
 vendor/lib/libutinterface_custom_md.so
