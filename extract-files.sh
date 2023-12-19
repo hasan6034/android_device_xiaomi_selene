@@ -32,6 +32,9 @@ function blob_fixup {
         lib/libsink.so)
             "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
             ;;
+        vendor/bin/hw/android.hardware.media.c2@1.2-mediatek)
+            "$PATCHELF" --add-needed "libstagefright_foundation-v33.so" "$2"
+            ;;
         vendor/lib/hw/audio.primary.mt6768.so)
             "$PATCHELF" --replace-needed "libmedia_helper.so" "libmedia_helper-v30.so" "$2"
             ;;
