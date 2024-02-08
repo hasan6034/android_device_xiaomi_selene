@@ -427,7 +427,6 @@ PRODUCT_PACKAGES += \
 
 # Symbols
 PRODUCT_PACKAGES += \
-    libshim_vtservice \
     libshim_beanpod \
     libshim_sensors \
     libpiex_shim
