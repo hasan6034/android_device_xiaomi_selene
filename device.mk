@@ -185,6 +185,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-resources.vendor \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.memtrack-service.mediatek-mali \
+    libdrm \
     libdrm.vendor \
     libvulkan \
     libfmq.vendor \
@@ -223,6 +224,7 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
+    android.hardware.health-V1-ndk \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
