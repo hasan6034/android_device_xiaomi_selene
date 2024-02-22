@@ -69,6 +69,12 @@ ro.mtk_perf_simple_start_win=1
 # Power
 sys.ipo.pwrdncap=2
 
+# Power Saving
+power.saving.mode=1
+pm.sleep_mode=1 
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+
 # System
 persist.sys.binary_xml=false
 
