@@ -228,9 +228,6 @@ ro.vendor.sim_refresh_reset_by_modem=1
 telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
 
-# Shutdown
-init.userspace_reboot.is_supported=true
-
 # SurfaceFlinger
 debug.cpurend.vsync=false
 debug.sf.use_phase_offsets_as_durations=1
