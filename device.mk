@@ -119,10 +119,6 @@ PRODUCT_PACKAGES += \
     com.android.hardware.boot \
     android.hardware.boot-service.default_recovery
 
-PRODUCT_PACKAGES += \
-    libmtk_bsg \
-    libmtk_bsg.recovery
-
 PRODUCT_PACKAGES_DEBUG += \
     bootctrl
     
