@@ -31,6 +31,9 @@ $(call inherit-product, vendor/xiaomi/selene/selene-vendor.mk)
 # Miui Camera
 $(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
+# Dolby
+$(call inherit-product-if-exists, hardware/dolby/dolby.mk)
+
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
