@@ -87,6 +87,8 @@ void vendor_load_properties()
 
     if (hwsku == "selene_s") { // Redmi 10 2022
         set_device_props("21121119SG", "selene", "Redmi 10 2022", "selene");
+    } else if (hwsku == "selene_la_v") { // Redmi 10 2022 Latin America
+        set_device_props("21121119VL", "selene", "Redmi 10", "selene");
     } else if (hwsku == "selenes") { // Redmi Note 11 4G
         set_device_props("21121119SC", "selene", "Redmi Note 11 4G", "selene");
     } else if (hwsku == "selene_t") { // Redmi 10 Prime
@@ -97,6 +99,10 @@ void vendor_load_properties()
         set_device_props("21061119CG", "selene", "Redmi 10", "eos");
     } else if (hwsku == "eos") { // Redmi 10 (NFC)
         set_device_props("21061119DG", "selene", "Redmi 10", "eos");
+    } else if (hwsku == "selene_la") { // Redmi 10 Latin America
+        set_device_props("21061119AL", "selene", "Redmi 10", "selene");
+    } else if (hwsku == "selene_p") { // Redmi 10 unknown, fallback to selene props
+        set_device_props("21061119AG", "selene", "Redmi 10", "selene");
     } else { // Redmi 10
         set_device_props("21061119AG", "selene", "Redmi 10", "selene");
     }
