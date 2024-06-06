@@ -225,9 +225,13 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/vintf/device_framework_matrix.xml \
     hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml
 ODM_MANIFEST_SKUS += \
-    eos
+    eos \
+    eos_u \
+    eos_p
 
 ODM_MANIFEST_EOS_FILES := $(DEVICE_PATH)/configs/vintf/manifest_eos.xml
+ODM_MANIFEST_EOS_U_FILES := $(DEVICE_PATH)/configs/vintf/manifest_eos_u.xml
+ODM_MANIFEST_EOS_P_FILES := $(DEVICE_PATH)/configs/vintf/manifest_eos_p.xml
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
