@@ -1,6 +1,4 @@
-import /vendor/odm/etc/${ro.boot.product.hardware.sku}/vendor.nxp.hardware.nfc@2.0-service.rc
-import /vendor/odm/etc/${ro.boot.product.hardware.sku}/android.hardware.nfc@1.0-service.rc
-import /vendor/odm/etc/${ro.boot.product.hardware.sku}/vendor.microtrust.hardware.se@1.0-service.rc
+import /vendor/odm/etc/${ro.boot.product.hardware.sku}/android.hardware.secure_element@1.2-service-mediatek.rc
 
 on init
     mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw

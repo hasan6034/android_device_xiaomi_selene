@@ -636,6 +636,14 @@ vendor/lib64/hw/power.default.so
 # Radio
 vendor/lib/libvsim.so
 
+# Secure element
+vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/lib/secure_element-impl.so
+vendor/lib64/secure_element-impl.so
+vendor/odm/etc/eos/android.hardware.secure_element@1.2-service-mediatek.rc
+vendor/odm/etc/eos_p/android.hardware.secure_element@1.2-service-mediatek.rc
+vendor/odm/etc/eos_u/android.hardware.secure_element@1.2-service-mediatek.rc
+
 # Sensors
 vendor/lib64/hw/sensors.mt6768.so
 vendor/lib64/libsensor_custom.so
