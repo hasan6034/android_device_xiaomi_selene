@@ -39,11 +39,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Redmi/selene/selene:12/TP1A.220624.014/V14.0.6.0.TKUMIXM:user/release-keys"
-
-# RisingOS flags
-RISING_MAINTAINER := fukiame
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_MAINTAINER="fukiame"
-
-WITH_GMS := true
-TARGET_CORE_GMS := true
