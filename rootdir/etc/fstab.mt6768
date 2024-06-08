@@ -1,5 +1,6 @@
 # core system partitions
 system							/system	ext4		ro		wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-developer-gsi.avbpubkey:/avb/r-developer-gsi.avbpubkey:/avb/s-developer-gsi.avbpubkey
+system_ext						/system_ext		    ext4	ro		wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
 vendor							/vendor	ext4		ro		wait,slotselect,avb,logical,first_stage_mount
 product							/product		ext4		ro								wait,slotselect,avb,logical,first_stage_mount
 /dev/block/platform/bootdevice/by-name/boot		/boot			emmc		defaults							first_stage_mount,nofail,slotselect
