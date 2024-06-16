@@ -222,8 +222,8 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(DEVICE_PATH)/configs/vintf/device_framework_matrix.xml
-
+    $(DEVICE_PATH)/configs/vintf/device_framework_matrix.xml \
+    hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml
 ODM_MANIFEST_SKUS += \
     eos
 
