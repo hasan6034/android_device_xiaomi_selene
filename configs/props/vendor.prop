@@ -138,7 +138,7 @@ persist.vendor.log.tel_log_ctrl=1
 ro.vendor.md_log_memdump_wait=15
 
 # Media
-debug.stagefright.ccodec=0
+debug.stagefright.ccodec=1
 ro.vendor.mtk_config_max_dram_size=0x800000000
 ro.vendor.pref_scale_enable_cfg=1
 ro.vendor.smvr.p2batch.hd=4
