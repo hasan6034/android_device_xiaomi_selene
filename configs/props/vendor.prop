@@ -87,6 +87,7 @@ ro.vendor.mtk_aal_support=1
 ro.vendor.mtk_blulight_def_support=1
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/system/etc/SVIConfig.xml
+debug.sf.auto_latch_unsignaled=0
 
 # DRM
 drm.service.enabled=true
