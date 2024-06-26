@@ -23,6 +23,9 @@
 # Lights
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.xiaomi                          	u:object_r:hal_light_default_exec:s0
 
+# Sensors
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.1-service\.xiaomi-multihal            u:object_r:mtk_hal_sensors_exec:s0
+
 # Memtrack
 /sys/devices/platform/[0-9].+mali/dma_buf_gpu_mem                                         u:object_r:sysfs_gpu:s0
 /sys/devices/platform/[0-9].+mali/kprcs                                                   u:object_r:sysfs_gpu:s0
