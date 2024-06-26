@@ -627,6 +627,11 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
 vendor/lib64/vendor.mediatek.hardware.radio_op@3.0.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
+# Power
+vendor/etc/power_app_cfg.xml
+vendor/etc/powercontable.xml
+vendor/etc/powerscntbl.xml
+
 # NFC
 vendor/etc/libese-nxp.conf
 vendor/etc/libnfc-nci.conf

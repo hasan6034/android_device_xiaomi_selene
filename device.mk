@@ -342,11 +342,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.3.vendor \
     android.hardware.power-service.lineage-libperfmgr
     
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/perf/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
-    $(DEVICE_PATH)/configs/perf/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
-    $(DEVICE_PATH)/configs/perf/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
-    
 PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
     libmtkperf_client 
