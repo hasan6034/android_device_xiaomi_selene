@@ -458,7 +458,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek/libmtkperf_client \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/mediatek
+    hardware/mediatek \
+    hardware/xiaomi
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -551,7 +552,7 @@ PRODUCT_COPY_FILES += \
     
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.selene
+    android.hardware.light-service.xiaomi
     
 # Keymaster
 PRODUCT_PACKAGES += \
