@@ -52,12 +52,10 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_PACKAGES += \
-    android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio@6.0.vendor \
     android.hardware.audio.service \
-    android.hardware.audio@6.0-impl \
-    android.hardware.audio@6.0-util.vendor \
-    android.hardware.audio.common@6.0-util \
+    android.hardware.audio@7.0-impl \
+    android.hardware.audio.effect@7.0-impl \
+    android.hardware.soundtrigger@2.3-impl:32 \
     android.hardware.bluetooth.audio-impl \
     audio.bluetooth.default \
     audio.primary.default \
@@ -139,7 +137,6 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.a2dp@1.0 \
-    android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1.vendor \
     android.hardware.bluetooth.a2dp@1.0.vendor
 
@@ -378,24 +375,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0 \
     android.hardware.broadcastradio@1.1 \
-    android.hardware.radio@1.0 \
-    android.hardware.radio@1.0.vendor \
-    android.hardware.radio@1.1 \
-    android.hardware.radio@1.1.vendor \
-    android.hardware.radio@1.2 \
-    android.hardware.radio@1.2.vendor \
-    android.hardware.radio@1.3 \
-    android.hardware.radio@1.3.vendor \
-    android.hardware.radio@1.4 \
-    android.hardware.radio@1.4.vendor \
-    android.hardware.radio@1.5 \
-    android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.0 \
-    android.hardware.radio.config@1.0.vendor \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.1.vendor \
-    android.hardware.radio.config@1.2 \
-    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio@1.6 \
+    android.hardware.radio@1.6.vendor \
+    android.hardware.radio.config@1.3 \
+    android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor
     
