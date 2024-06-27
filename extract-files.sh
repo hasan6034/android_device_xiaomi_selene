@@ -63,6 +63,9 @@ function blob_fixup {
             # evaluateCaptureConfiguration()
             sed -i "s/\x34\xE8\x87\x40\xB9/\x34\x28\x02\x80\x52/" "$2"
             ;;
+        vendor/bin/hw/android.hardware.media.c2@1.2-mediatek)
+            "${PATCHELF}" --add-needed "libstagefright_foundation-v33.so" "${2}"
+            ;;
         vendor/lib*/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
             ;;

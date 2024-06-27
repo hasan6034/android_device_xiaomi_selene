@@ -271,7 +271,8 @@ PRODUCT_COPY_FILES += \
 # Media Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
-    libsfplugin_ccodec
+    libsfplugin_ccodec \
+    libstagefright_foundation-v33
 
 # Net
 PRODUCT_PACKAGES += \
