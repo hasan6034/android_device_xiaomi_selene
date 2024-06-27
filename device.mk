@@ -426,6 +426,9 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0. \
     android.hardware.sensors@2.1-service.xiaomi-multihal
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
 # Symbols
 PRODUCT_PACKAGES += \
     libshim_vtservice \
