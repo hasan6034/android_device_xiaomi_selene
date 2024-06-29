@@ -447,7 +447,6 @@ vendor/lib/libMtkOmxApeDec.so|d5ae580bcab731799d40ec4db425200853037d17
 vendor/lib/libMtkOmxCore.so|20c838ad1c52a0485dd118daa45b71c403ebdcfe
 vendor/lib/libMtkOmxGsmDec.so|d3f76f217c7424ee4870afee63418e3f4b1cb3ad
 vendor/lib/libMtkOmxMp3Dec.so|7e2602001e80721bc35b37cae2da32116d01d615
-vendor/lib/libMtkOmxVdecEx.so|bc4b072426f801dda74b7472c366dae86344f69d
 vendor/lib/libMtkOmxVenc.so|6750cfd75a947fe3b8111ba578b3c63b9da01a39
 vendor/lib/libstagefrighthw.so|f15b25c6a9f68ca0b531104f7a174a0876283398
 vendor/lib/libwlparser.so|2fc4d95a75e27a7e0509bd2005645c6cb11ec6ad
@@ -456,6 +455,9 @@ vendor/lib64/libMtkOmxCore.so|b62b367040c5295af204ff59de456e53851aaab8
 vendor/lib64/libstagefrighthw.so|24713fd3d46c5b4f86cfb286666524d34740b304
 vendor/lib64/libwlparser.so|211ecad772588451bcaf3e66d1b582d92c66e1dd
 vendor/lib64/libwlservice.so|5e44d3cd4f5d0912e4829444af58d7bff51fc43a
+
+# Media OMX - Patch for A14 QPR3
+vendor/lib/libMtkOmxVdecEx.so|2f3652161a30d12067787719f7f6da41366d4191
 
 # Mediatek
 vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
