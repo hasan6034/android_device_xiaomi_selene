@@ -174,6 +174,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     charger_res_images_vendor
 
+# Dolby
+PRODUCT_PACKAGES += \
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor
+
 # Disable Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
