@@ -80,7 +80,8 @@ PRODUCT_PACKAGES += \
     libnbaio_mono \
     libaudiofoundation \
     libaudiofoundation.vendor \
-    libaudioroute.vendor
+    libaudioroute.vendor \
+    libldacBT_bco
 
 PRODUCT_PACKAGES += \
     BesLoudness \
