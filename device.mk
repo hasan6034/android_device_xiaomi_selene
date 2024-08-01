@@ -190,7 +190,6 @@ PRODUCT_PACKAGES += \
     libfmq.vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
@@ -360,7 +359,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-    
+
+PRODUCT_PACKAGES += \
+    libshim_ui
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt

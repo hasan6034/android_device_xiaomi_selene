@@ -26,6 +26,9 @@ source "${HELPER}"
 
 function blob_fixup {
     case "$1" in
+        lib/libsource.so)
+            grep -q libshim_ui.so "$2" || "$PATCHELF" --add-needed libshim_ui.so "$2"
+            ;;
         lib/libsink.so)
             "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
             ;;
