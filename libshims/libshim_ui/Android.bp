@@ -15,4 +15,5 @@ cc_library_shared {
         "GraphicBufferMapper.cpp",
     ],
     system_ext_specific: true,
+    vendor_available: true,
 }
