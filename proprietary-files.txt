@@ -430,6 +430,9 @@ vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 
 # Media OMX - from selene-user 13 TP1A.220624.014 V14.0.2.0.TKUCNXM release-keys
 vendor/bin/osal_ut|1a86b3fa07f2297b33993075a07e331fb291f79e
+vendor/lib/libcodec2_hidl@1.1.so
+vendor/lib/libcodec2_hidl@1.2.so
+vendor/lib/libcodec2_soft_common.so
 vendor/lib/libMtkOmxAdpcmDec.so|72f35d9790f0c3cb5f6e4198fed9e57610ac722d
 vendor/lib/libMtkOmxAlacDec.so|eca9a0231d000ddf2e4fca2c3b96977cb56f9078
 vendor/lib/libMtkOmxApeDec.so|d5ae580bcab731799d40ec4db425200853037d17
@@ -441,6 +444,7 @@ vendor/lib/libMtkOmxVenc.so|6750cfd75a947fe3b8111ba578b3c63b9da01a39
 vendor/lib/libstagefrighthw.so|f15b25c6a9f68ca0b531104f7a174a0876283398
 vendor/lib/libwlparser.so|2fc4d95a75e27a7e0509bd2005645c6cb11ec6ad
 vendor/lib/libwlservice.so|d6739e626b280e2025c7549b6d511851f6baa0b5
+vendor/lib64/libcodec2_soft_common.so
 vendor/lib64/libMtkOmxCore.so|b62b367040c5295af204ff59de456e53851aaab8
 vendor/lib64/libstagefrighthw.so|24713fd3d46c5b4f86cfb286666524d34740b304
 vendor/lib64/libwlparser.so|211ecad772588451bcaf3e66d1b582d92c66e1dd
