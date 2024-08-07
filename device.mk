@@ -76,7 +76,8 @@ PRODUCT_PACKAGES += \
     libalsautils \
     libnbaio_mono \
     libaudiofoundation \
-    libaudiofoundation.vendor 
+    libaudiofoundation.vendor \
+    libaudioroute.vendor
 
 PRODUCT_PACKAGES += \
     BesLoudness \
@@ -157,6 +158,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_metadata_shim
     
+PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
+    libutilscallstack.vendor \
+    libpng.vendor
+
 # Certs
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,system/ca-certificates/files/,$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts)
@@ -258,6 +264,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
+
+PRODUCT_PACKAGES += \
+    libprocessgroup.vendor \
+    libnetutils.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+	libpower.vendor \
+    libcurl.vendor \
+    libion.vendor \
+    libssl.vendor
 
 # Net
 PRODUCT_PACKAGES += \
