@@ -151,10 +151,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5.vendor \
     android.hardware.camera.device@3.6.vendor
 
-# Camera
-PRODUCT_PACKAGES += \
-    Aperture
-    
 PRODUCT_PACKAGES += \
     libcamera_metadata_shim
     
@@ -466,8 +462,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    ApertureOverlaySelene \
-    ApertureQRScannerOverlaySelene \
     CarrierConfigOverlaySelene \
     DialerOverlaySelene \
     FrameworksResOverlaySelene \
