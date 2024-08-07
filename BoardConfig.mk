@@ -227,8 +227,8 @@ ODM_MANIFEST_SKUS += \
 ODM_MANIFEST_EOS_FILES := $(DEVICE_PATH)/manifest_eos.xml
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # Vendor security patch date
 VENDOR_SECURITY_PATCH := 2022-04-05
