@@ -26,7 +26,7 @@ source "${HELPER}"
 
 function blob_fixup {
     case "$1" in
-        lib/libsource.so)
+        system_ext/lib64/libsource.so)
             grep -q libshim_ui.so "$2" || "$PATCHELF" --add-needed libshim_ui.so "$2"
             ;;
         vendor/lib/hw/audio.primary.mt6768.so)
