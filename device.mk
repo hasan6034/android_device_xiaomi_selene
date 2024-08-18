@@ -265,7 +265,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec \
-    libstagefright_foundation-v33
+    libstagefright_foundation-v33 \
+    libcodec2_hidl@1.1.vendor \
+    libcodec2_hidl@1.2.vendor \
+    libavservices_minijail_vendor
 
 PRODUCT_PACKAGES += \
     libprocessgroup.vendor \

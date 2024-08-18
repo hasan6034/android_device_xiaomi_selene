@@ -437,6 +437,10 @@ vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 
 # Media OMX - from selene-user 13 TP1A.220624.014 V14.0.2.0.TKUCNXM release-keys
 vendor/bin/osal_ut|1a86b3fa07f2297b33993075a07e331fb291f79e
+vendor/lib/libcodec2_hidl@1.1.so
+vendor/lib/libcodec2_hidl@1.2.so
+vendor/lib/libcodec2_soft_common.so
+vendor/lib64/libcodec2_soft_common.so
 vendor/lib/libMtkOmxAdpcmDec.so|72f35d9790f0c3cb5f6e4198fed9e57610ac722d
 vendor/lib/libMtkOmxAlacDec.so|eca9a0231d000ddf2e4fca2c3b96977cb56f9078
 vendor/lib/libMtkOmxApeDec.so|d5ae580bcab731799d40ec4db425200853037d17
