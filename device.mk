@@ -369,6 +369,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libui_shim.vendor
 
+PRODUCT_PACKAGES += \
+    libshim_ui
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
