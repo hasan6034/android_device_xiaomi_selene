@@ -367,8 +367,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 PRODUCT_PACKAGES += \
-    libshim_ui \
-    libshim_ui.vendor
+    libui_shim.vendor
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
