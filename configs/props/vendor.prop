@@ -104,6 +104,7 @@ ro.vendor.mtk_log_hide_gps=1
 ro.vendor.mtk_wappush_support=1
 
 # HWUI
+debug.renderengine.backend=skiaglthreaded
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 
