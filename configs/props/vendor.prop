@@ -105,8 +105,11 @@ ro.vendor.mtk_wappush_support=1
 
 # HWUI
 debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+debug.sdm.support_writeback=0
+ro.hwui.render_ahead=10
 
 # IMS
 ro.vendor.md_auto_setup_ims=1
@@ -132,6 +135,10 @@ ro.lmk.psi_complete_stall_ms=70
 ro.lmk.swap_free_low_percentage=20
 ro.lmk.upgrade_pressure=40
 ro.lmk.use_minfree_levels=true
+ro.lmk.filecache_min_kb=153600
+ro.lmk.kill_timeout_ms=50
+ro.lmk.stall_limit_critical=40
+ro.lmk.debug=false
 
 # Logs
 debug.als.logs=1
@@ -140,6 +147,7 @@ persist.vendor.log.tel_log_ctrl=1
 ro.vendor.md_log_memdump_wait=15
 
 # Media
+persist.mm.enable.prefetch=true
 debug.stagefright.ccodec=1
 ro.vendor.mtk_config_max_dram_size=0x800000000
 ro.vendor.pref_scale_enable_cfg=1
@@ -229,17 +237,16 @@ ro.vendor.sim_me_lock_mode=0
 ro.vendor.sim_refresh_reset_by_modem=1
 telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
+persist.vendor.radio.add_power_save=0
+
+# Reduce boot time
+ro.config.hw_quickpoweron=true
+ro.config.hw_quickpoweron_init=true
 
 # SurfaceFlinger
 debug.cpurend.vsync=false
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000
-debug.sf.late.sf.duration=27600000
-debug.sf.late.app.duration=20000000
-debug.sf.early.sf.duration=27600000
-debug.sf.early.app.duration=20000000
-debug.sf.earlyGl.sf.duration=27600000
-debug.sf.earlyGl.app.duration=20000000
 debug.sf.hwc.min.duration=23000000
 debug.sf.disable_backpressure=1
 debug.sf.enable_egl_image_tracker=false
@@ -254,6 +261,35 @@ ro.config.avoid_gfx_accel=true
 ro.surface_flinger.primary_display_orientation=ORIENTATION_0
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 service.sf.prime_shader_cache=0
+
+# Performance
+debug.performance.tuning=1
+vendor.gralloc.enable_fb_ubwc=1
+
+# Dex2oat
+pm.dexopt.boot=verify
+pm.dexopt.bg-dexopt=everything
+pm.dexopt.first-boot=quicken
+pm.dexopt.install=speed-profile
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+
+# Smooth display
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+
+# Skia tracing
+debug.hwui.skia_atrace_enabled=false
+
+# Iorapd
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
 # Suspend
 suspend.short_suspend_threshold_millis=2000
@@ -300,3 +336,29 @@ ro.vendor.mtk_mapi_support=1
 ro.vendor.mtk_uicc_clf=1
 ro.vendor.perf.scroll_opt=true
 ro.vendor.system.mtk_mapi_support=1
+
+# Touch Hax 
+touch.size.scale=1
+touch.size.bias=0
+touch.size.isSummed=0
+touch.pressure.scale=0.001
+touch.distance.calibration=none
+touch.distance.scale=0
+touch.coverage.calibration=box
+touch.gestureMode=spots
+MultitouchSettleInterval=1ms
+MultitouchMinDistance=1px
+TapInterval=1ms
+TapSlop=1px
+# Battery Backup
+ro.config.hw_power_extreme_saving=1
+ro.config.hw_power_saving=1
+ro.ril.power_collapse=1
+ro.ril.disable.power.collapse=0
+pm.sleep_mode=1
+# Sensors
+persist.vendor.sensors.debug.hal=0
+# Disable Blur
+ro.surface_flinger.supports_background_blur=0
+persist.sys.sf.disable_blurs=0
+ro.sf.blurs_are_expensive=0
