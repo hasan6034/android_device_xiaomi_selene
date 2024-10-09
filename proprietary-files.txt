@@ -1,5 +1,9 @@
 # unpinned blobs from selene-user 11 RP1A.200720.011 V12.5.19.0.RKUMIXM release-keys
 
+# AEE - from a06xx-user 14 UP1A.231005.007 A065FXXU1AXG8 release-key
+vendor/lib/libaedv.so|3e63fdc20cbed77f4801c64da964e3805f793cdd
+vendor/lib64/libaedv.so|172c5d7632b2e870526f85bc859b0f8b9934ab9f
+
 # Audio
 vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocompensationfilter_vendor.so
@@ -874,7 +878,6 @@ vendor/lib/libaalservice.so
 vendor/lib/libaal_cust.so
 vendor/lib/libaal_key.so
 vendor/lib/libaal_mtk.so
-vendor/lib/libaedv.so
 vendor/lib/libakm.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
@@ -999,7 +1002,6 @@ vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libacdk.so
-vendor/lib64/libaedv.so
 vendor/lib64/libailab_hdr_preview.so
 vendor/lib64/libakm.so
 vendor/lib64/libalCFR.so
