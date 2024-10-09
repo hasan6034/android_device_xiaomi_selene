@@ -723,9 +723,9 @@ vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/thermal.mt6768.so
 vendor/lib64/hw/thermal.mt6768.so
 
-# UDF - from from selene-user 12 SP1A.210812.016 V13.0.8.0.SKUMIXM release-keys
-vendor/lib/libudf.so|7cdbb5c5c616dbbec6afcd75d5cc41f915ff82d6
-vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
+# UDF - from a06xx-user 14 UP1A.231005.007 A065FXXU1AXG8 release-keys
+vendor/lib/libudf.so|b5ed2172cf761f04896a68c93b58ae87f407a3e9
+vendor/lib64/libudf.so|8e966d8cb6cb584d6e15f1d7baccd5b4eb7539ce
 
 # WiFi
 -vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
