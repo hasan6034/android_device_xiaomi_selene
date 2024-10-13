@@ -434,10 +434,6 @@ vendor/lib64/vendor.mediatek.hardware.keyinstall@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
-# Media
-vendor/bin/hw/android.hardware.media.omx@1.0-service
-vendor/etc/init/android.hardware.media.omx@1.0-service.rc
-
 # Media OMX - from selene-user 13 TP1A.220624.014 V14.0.2.0.TKUCNXM release-keys
 vendor/bin/osal_ut|1a86b3fa07f2297b33993075a07e331fb291f79e
 vendor/lib/libcodec2_hidl@1.1.so
