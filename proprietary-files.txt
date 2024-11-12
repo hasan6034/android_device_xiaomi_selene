@@ -459,6 +459,28 @@ vendor/lib64/libstagefrighthw.so|24713fd3d46c5b4f86cfb286666524d34740b304
 vendor/lib64/libwlparser.so|211ecad772588451bcaf3e66d1b582d92c66e1dd
 vendor/lib64/libwlservice.so|5e44d3cd4f5d0912e4829444af58d7bff51fc43a
 
+# Media Codec - from selene V14.0.2.0.TKUCNXM
+vendor/lib/libcodec2_mtk_c2store.so
+vendor/lib/libcodec2_mtk_vdec.so
+vendor/lib/libcodec2_mtk_venc.so
+vendor/lib/libcodec2_soft_mtk_alacdec.so
+vendor/lib/libcodec2_soft_mtk_apedec.so
+vendor/lib/libcodec2_soft_mtk_imaadpcmdec.so
+vendor/lib/libcodec2_soft_mtk_mp3dec.so
+vendor/lib/libcodec2_soft_mtk_msadpcmdec.so
+vendor/lib/libcodec2_vpp_qt_plugin.so
+vendor/lib/libcodec2_vpp_rs_plugin.so
+vendor/lib64/libcodec2_mtk_c2store.so
+vendor/lib64/libcodec2_mtk_vdec.so
+vendor/lib64/libcodec2_mtk_venc.so
+vendor/lib64/libcodec2_soft_mtk_alacdec.so
+vendor/lib64/libcodec2_soft_mtk_apedec.so
+vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so
+vendor/lib64/libcodec2_soft_mtk_mp3dec.so
+vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so
+vendor/lib64/libcodec2_vpp_qt_plugin.so
+vendor/lib64/libcodec2_vpp_rs_plugin.so
+
 # Mediatek
 vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
