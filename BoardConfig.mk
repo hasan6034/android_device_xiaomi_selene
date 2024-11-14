@@ -54,10 +54,8 @@ ART_BUILD_HOST_DEBUG := false
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
-# Dolby
+# Audio
 USE_CUSTOM_AUDIO_POLICY := 1
-AUDIO_FEATURE_ENABLED_HW_ACCELERATED_EFFECTS := true
-TARGET_PROVIDES_AUDIO_EXTNS := true
 
 # Build
 BUILD_BROKEN_DUP_RULES := true
@@ -249,4 +247,3 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # Vendor security patch date
 VENDOR_SECURITY_PATCH := 2022-04-05
-
